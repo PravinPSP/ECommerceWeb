@@ -1,0 +1,29 @@
+.cartpanel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100vh;
+    background-color: white;
+    outline: 0;
+    color: black;
+    overflow: scroll;
+}
+.cartpanel button {
+    margin-left: 30px;
+    margin-top: 15px;
+
+}
+.cart_item {
+    display: flex; 
+    border: 1px solid gray;
+    margin: 15px 40px 20px;
+    padding: 0 10px;
+    background-color: rgb(255, 251, 251);
+}
+.cart_item img {
+    width: fit-content;
+}
+.cart_info {
+    padding-left: 20px;
+}

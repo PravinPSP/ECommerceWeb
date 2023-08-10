@@ -1,0 +1,33 @@
+.filterbody {
+    display: flex;
+}
+.filter {
+    width: 17%;
+    padding-left: 30px;
+}
+.divv p {
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    width: 83%;
+}
+.single_product {
+    background-color: rgb(250, 248, 248);
+    margin: 5px 10px;
+}
+.single_product h3 {
+    margin: 0;
+}
+.single_product h5 {
+    margin: 0;
+    margin-top: 10px;
+}
+.single_product p {
+    display: inline-block;
+    margin: 0;
+    margin-right: 10px;
+}

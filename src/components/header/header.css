@@ -1,0 +1,34 @@
+.header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0;
+    background: transparent;
+    color: white;
+}
+.headerbox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header_name {
+    display: flex;
+}
+.header_name1 {
+    color: gray;
+}
+.header_links {
+    display: flex;
+}
+.header_links h4 {
+    margin-right: 15px;
+}
+.img_div {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.img_div img {
+    margin: 0 10px;
+    color: white;
+}
